@@ -1,0 +1,21 @@
+<joblist>
+  <job>
+    <defaultTab>nodes</defaultTab>
+    <description>test</description>
+    <executionEnabled>true</executionEnabled>
+    <id>7dcb5d3b-030e-4ea1-8f45-b03496cac774</id>
+    <loglevel>INFO</loglevel>
+    <name>test</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <plugins />
+    <scheduleEnabled>true</scheduleEnabled>
+    <schedules />
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>ps -def</exec>
+      </command>
+    </sequence>
+    <tags>test</tags>
+    <uuid>7dcb5d3b-030e-4ea1-8f45-b03496cac774</uuid>
+  </job>
+</joblist>
